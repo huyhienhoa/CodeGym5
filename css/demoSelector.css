@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-size: 30px;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p{
+    color: red;
+}
+div p
+{
+ color:red;
+}
+div p strong span{
+    color: red;
+}
+#red{
+    color: red;
+}
+.red{
+    color: red;
+}
+div#main h2.title{
+
+}

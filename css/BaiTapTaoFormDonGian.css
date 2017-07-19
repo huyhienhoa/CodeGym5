@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background-color: #d7ffe1;
+}
+.content1, .content2{
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+
+}
+#header{
+    padding: 7px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+   text-transform: uppercase;
+    text-align: center;
+}
+label{
+    width: 100px;
+    display: inline-block;
+    padding-top: 10px;
+    text-align: right;
+    padding-right: 10px;
+    color: #1332ff;
+}
+.content1 .form{
+    padding-left: 100px;
+}
+.content1 .right{
+    padding-left: 114px;
+}
+.content1 .hobby{
+    width: 80px;
+    display: inline-block;
+    color: #ff5c02;
+}
+.content1 #button{
+    padding: 5px;
+    padding-left: 110px;
+}
+#tieude{
+    padding: 7px;
+    background-color: #6dff28;
+    color: #0913ff;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 5px;
+}
+.content2{
+    background-color: #fff6b0;
+}
+#nut{
+    padding: 10px 100px;
+}
+#diachi{
+    position: relative;
+    top: -60px;
+}

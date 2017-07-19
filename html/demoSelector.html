@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Demo selector in CSS</title>
+    <link href="../css/demoSelector.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+
+
+    <div class="container">
+        <h1>DEMO SELECTOR IN CSS</h1>
+
+    </div>
+
+
+    <!--selector theo tên thẻ-->
+
+    <p>Nội dung có màu đỏ vì nó nằm trong thẻ p.</p>
+    <div>Nội dung không có màu đỏ vì nó không nằm trong thẻ p</div>
+    <div>
+        <p>Nội dung có màu đỏ vì nó nằm trong thẻ p.</p>
+    </div>
+
+
+    <!--selector phân cấp-->
+
+    <div>
+        <p>
+            Nội dung có màu đỏ vì nó nằm trong thẻ p có thẻ cha là thẻ div
+        </p>
+    </div>
+    <p>
+        Nội dung không có màu đỏ mặc dù nó nằm trong thẻ p.
+    </p>
+
+
+
+    <div>
+        <p>
+            <strong>
+                <span>Nội dung có màu đỏ vì nó nằm trong thẻ span có thẻ cha là strong, thẻ ông nội là thẻ p, thẻ cụ là thẻ div </span>
+            </strong>
+            <span>Nội dung không có màu đỏ mặc dù nó nằm trong thẻ span</span>
+        </p>
+    </div>
+
+
+
+   <!--selector ID -->
+    <div id="red">
+        Nội dung có màu đỏ vì nó nằm trong thẻ div có id="red".
+    </div>
+    <div>
+        Nội dung ko có màu đỏ vì tuy nó nằm trong thẻ div nhưng thẻ div lại ko có id="red".
+    </div>
+    <div>
+        Nội dung ko có màu đỏ vì tuy nó nằm trong thẻ div nhưng thẻ div lại ko có id="red".
+    </div>
+
+
+
+    <!--selector Class-->
+
+    <div class="red">
+        Nội dung có màu đỏ vì nó nằm trong thẻ div có class="red"
+    </div>
+    <p class="red">
+        Nội dung có màu đỏ vì nó nằm trong thẻ p có class="red"
+    </p>
+    <div>
+        Nội dung không có màu đỏ vì thẻ div này ko có class="red"
+    </div>
+    <div>
+        <span class="red">
+        Nội dung có màu đỏ vì nó nằm trong thẻ span có class="red"
+    </span>
+    </div>
+
+
+</body>
+</html>
