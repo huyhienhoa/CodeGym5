@@ -1,0 +1,33 @@
+body{
+    font-family: Arial sans-serif;
+}
+#menu ,ul,li{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    position: relative;
+    width: 150px;
+    height: 30px;
+    padding: 0 20px;
+    background-color: #d0ff08;
+    line-height: 30px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+li:hover{
+    background-color: #0913ff;
+}
+ul ul{
+    position: absolute;
+    top: 0;
+    left: 190px ;
+    visibility: hidden;
+}
+ul li:hover ul{
+    visibility: visible;
+}
