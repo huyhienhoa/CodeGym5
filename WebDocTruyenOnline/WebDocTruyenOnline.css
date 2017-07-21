@@ -1,0 +1,52 @@
+body{
+    font-family: Arial sans-serif;
+    margin: 0;
+}
+
+#header{
+    background-image: url("images/header-bg.jpg");
+    height: 160px;
+    -o-background-size: contain;
+    background-repeat:repeat ;
+}
+#logo{
+    padding-left: 70px;
+    padding-top: 15px ;
+    display: inline-block;
+    float: left;
+    width: 20%;
+}
+#banner img{
+    height: 90px;
+    width: 50%
+}
+#header-link{
+    clear: both;
+    background-color: black;
+    height: 40px;
+    width: 1210px;
+    margin-left: 70px;
+    border-radius:  10px 10px 0 0;
+}
+#header-link ul li{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+#header-link li{
+    list-style-type: none;
+    display: block;
+    float: left;
+}
+#header-link ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+#header-link ul li a:hover{
+    color: red;
+}

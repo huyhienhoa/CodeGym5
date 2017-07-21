@@ -1,0 +1,158 @@
+body{
+    font-family: Arial sans-serif;
+    margin: 0;
+}
+
+#header{
+    background-image: url("../images/header-bg.jpg");
+    height: 160px;
+    -o-background-size: contain;
+    background-repeat:repeat ;
+}
+#logo{
+    padding-left: 70px;
+    padding-top: 20px ;
+    display: inline-block;
+    float: left;
+}
+#login{
+    width: 250px;
+    background-image: url("../images/bg-login.png");
+    background-repeat: repeat-x;
+    height: 120px;
+    display: inline-block;
+    float: right;
+    margin-right: 70px;
+}
+#login label{
+    color: white;
+    padding-left: 17px;
+}
+#login input{
+    margin-top: 5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+#button{
+    margin-top: 5px;
+    margin-left: 60px;
+    border-radius: 15px;
+    padding: 0 30px;
+}
+#header-link{
+    clear: both;
+    background-color: black;
+    height: 40px;
+    width: 1210px;
+    margin-left: 70px;
+    border-radius:  10px 10px 0 0;
+}
+#header-link ul li{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+#header-link li{
+    list-style-type: none;
+    display: block;
+    float: left;
+}
+#header-link ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+#header-link ul li a:hover{
+    color: red;
+}
+#content{
+    margin: 5px 70px;
+}
+#left{
+    width: 70%;
+    display: inline-block;
+    float: left;
+}
+#right{
+    width: 28%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.game{
+    text-align: center;
+    display: inline-block;
+    height: 150px;
+    float: left;
+    border: 1px solid black;
+    margin-right: 20px;
+    padding: 10px 0;
+}
+#content #left img{
+    width: 180px;
+}
+#right .table img{
+    width: 50px;
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.table{
+    border: 1px solid black;
+    height: 100px;
+    width: 80%;
+    margin-top: 20px;
+}
+.header-tbl{
+    color: white;
+    background-color: black;
+    padding: 5px 2px;
+}
+#table1{
+    margin-top: 20px;
+    border: 1px solid black;
+    height: 270px;
+    width: 80%;
+}
+#table1 img{
+    width: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+.row-left {
+    width: 10%;
+    float: left;
+    display: inline-block;
+    margin-left: 2px;
+}
+.row-right{
+    width: 88%;
+    display: inline-block;
+    margin-top: 11px;
+    margin-left: 2px;
+}
+.viethoa{
+    text-transform: uppercase;
+}
+.mau{
+    color: orange;
+}
+.title{
+    font-weight: bold;
+}
+.select{
+    text-align: center;
+}
+#article{
+    margin-top: 10px;
+    clear: both;
+}
+#article hr{
+    border-style: dotted;
+}
