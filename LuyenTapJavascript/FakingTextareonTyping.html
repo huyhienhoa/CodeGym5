@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Faking Textare on Typing</title>
+    <style>
+        #center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="center">
+        <div>
+            <h2>Nhập chuỗi để thử nghiệm chương trình</h2>
+            <input type="text" id="chuoi" onblur="ChuyenChuoiThanhMang()">
+        </div>
+        <h1>Type anthing slowly</h1>
+        <textarea id="text" cols="30" rows="5" onkeydown="slowly();"></textarea>
+    </div>
+    <script>
+        var a=new Array();
+        function ChuyenChuoiThanhMang() {
+            var chuoi;
+            chuoi=document.getElementById("chuoi").value;
+            var length=chuoi.length;
+            for(i=0;i<length;i++){
+                a[i]=chuoi.substr(i,1);
+            }
+            return a;
+
+        }
+        document.write(a.join());
+
+        var kq="";
+        function slowly() {
+            j=document.getElementById('text').value.length;
+            if(j>0){
+                for(var i=0;i<j;i++){
+                    kq=kq+a[i];
+                    if(i==a.length){
+                        document.getElementById('text').value="";
+                        kq="";
+                    }
+                }
+            }
+            document.getElementById('text').value=kq;
+            kq="";
+            setTimeout("slowly()",1);
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi tiền tệ</title>
+</head>
+<body>
+    <div>Amount</div>
+    <input type="text" id="amount">
+    <div>From Currency</div>
+    <select id="from-currency">
+        <option value="vnd">VND</option>
+        <option value="usd">USD</option>
+        <option value="jpy">JPY</option>
+        <option value="eur">EUR</option>
+        <option value="gbp">GBP</option>
+    </select>
+    <div>to Currency</div>
+    <select id="to-currency">
+        <option value="vnd">VND</option>
+        <option value="usd">USD</option>
+        <option value="jpy">JPY</option>
+        <option value="eur">EUR</option>
+        <option value="gbp">GBP</option>
+    </select>
+    <div>
+        <button type="button" onclick="chuyendoi()">Chuyển đổi</button>
+
+    </div>
+    <p id="ketqua"></p>
+    <script>
+        function chuyendoi() {
+            var text;
+            var Amount=document.getElementById('amount').value;
+            var FromCurrency=document.getElementById("from-currency").value;
+            var ToCurrency=document.getElementById("to-currency").value;
+            switch(FromCurrency){
+                case "vnd":
+                    switch (ToCurrency){
+                        case "vnd":
+                            text=Amount*1;
+                            break;
+                        case "usd":
+                            text=Amount/22000;
+                            break;
+                        case "jpy":
+                            text=Amount/200;
+                            break;
+                        case "eur":
+                            text=Amount/25000;
+                            break;
+                        case "gbp":
+                            text=Amount/30000;
+                            break;
+                    }
+                    break;
+                case "usd":
+                    switch (ToCurrency){
+                        case "vnd":
+                            text=Amount*22000;
+                            break;
+                        case "usd":
+                            text=Amount;
+                            break;
+                        case "jpy":
+                            text=(Amount*22000)/200;
+                            break;
+                        case "eur":
+                            text=(Amount*22000)/25000;
+                            break;
+                        case "gbp":
+                            text=(Amount*22000)/30000;
+                            break;
+                    }
+                    break;
+                case "jpy":
+                    switch (ToCurrency){
+                        case "vnd":
+                            text=Amount*200;
+                            break;
+                        case "usd":
+                            text=(Amount*200)/22000;
+                            break;
+                        case "jpy":
+                            text=200;
+                            break;
+                        case "eur":
+                            text=(Amount*200)/25000;
+                            break;
+                        case "gbp":
+                            text=(Amount*200)/30000;
+                            break;
+                    }
+                    break;
+                case "eur":
+                    switch (ToCurrency){
+                        case "vnd":
+                            text=Amount*25000;
+                            break;
+                        case "usd":
+                            text=(Amount*25000)/22000;
+                            break;
+                        case "jpy":
+                            text=(Amount*25000)/200;
+                            break;
+                        case "eur":
+                            text=Amount;
+                            break;
+                        case "gbp":
+                            text=(Amount*25000)/30000;
+                            break;
+                    }
+                    break;
+                case "gbp":
+                    switch (ToCurrency){
+                        case "vnd":
+                            text=Amount*30000;
+                            break;
+                        case "usd":
+                            text=(Amount*30000)/22000;
+                            break;
+                        case "jpy":
+                            text=(Amount*30000)/200;
+                            break;
+                        case "eur":
+                            text=(Amount*30000)/25000;
+                            break;
+                        case "gbp":
+                            text=(Amount);
+                            break;
+                    }
+                    break;
+            }
+            document.getElementById('ketqua').innerHTML=text;
+
+        }
+    </script>
+</body>
+
+</html>

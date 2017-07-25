@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Do You Love Me</title>
+    <style>
+        div{
+            position: relative;
+            text-align: center;
+        }
+        #ok{
+            position: absolute;
+            top: 50px;
+            left: 570px;
+        }
+        #no{
+            position: absolute;
+            top: 50px;
+            left: 670px;
+        }
+        button{
+            padding: 7px 25px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Do you love me???</h1>
+        <button type="button" onclick="ok()" id="ok">Ok</button>
+        <button type="button" onmouseover="no()" id="no">No</button>
+    </div>
+    <script>
+        function ok() {
+            alert("Tuyệt vời, bạn đã chọn đúng người");
+        }
+        function no() {
+            var x=Math.random()*500;
+            var y=Math.random()*200;
+            document.getElementById('no').style.top=x+'px';
+            document.getElementById('no').style.left=y+'px';
+
+        }
+    </script>
+</body>
+</html>

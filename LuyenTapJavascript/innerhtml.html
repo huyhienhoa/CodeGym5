@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Truy xuất bằng ID</title>
+    <script>
+        function changetext() {
+            var p1=document.getElementById("text1");
+            alert(p1.innerHTML);
+            p1.innerHTML="Văn bản 1 đã bị thay đổi";
+        }
+    </script>
+</head>
+<body onload="changetext()">
+    <p id="text1">Văn bản 1</p>
+    <p id="text2">Văn bản 2</p>
+
+</body>
+</html>

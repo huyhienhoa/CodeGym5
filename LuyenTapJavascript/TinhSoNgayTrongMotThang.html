@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính số ngày trong 1 tháng</title>
+</head>
+<body>
+    <div style="text-align: center">
+        <h1>Kiểm tra tháng có bao nhiêu ngày</h1>
+        <input type="number" max="12" min="1" id="month">
+        <button type="button" onclick="check()">Tính số ngày</button>
+        <h3 id="kq"></h3>
+    </div>
+    <script>
+        function check() {
+            var month=parseInt(document.getElementById("month").value);
+            switch (month){
+                case 1:
+                case 3:
+                case 5:
+                case 7:
+                case 9:
+                case 10:
+                case 12:
+                {
+                    document.getElementById("kq").innerHTML="Tháng "+month+" có 31 ngày !!!";
+                    break;
+                }
+                case 2:
+                    document.getElementById("kq").innerHTML="Tháng 2 có 28 hoặc 29 ngày, tùy có là năm nhuận hay không !!!";
+                    break;
+                default:
+                    document.getElementById("kq").innerHTML="Tháng "+month+" có 30 ngày !!!";
+            }
+
+        }
+    </script>
+</body>
+</html>

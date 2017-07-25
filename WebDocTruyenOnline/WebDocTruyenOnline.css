@@ -43,7 +43,7 @@ body{
 #search input{
     padding: 10px 5px;
     width: 75%;
-    font-size: large;
+
 
 }
 #search button{
@@ -51,7 +51,7 @@ body{
     padding-bottom: 11px;
     padding-left: 25px;
     padding-right: 25px;
-    font-size: large;
+    /*font-size: large;*/
 
 }
 #header-link{
@@ -99,13 +99,13 @@ body{
 }
 #header-link-right span{
     padding-left: 20px;
-    font-size: 25px;
+    /*font-size: 25px;*/
     color: chartreuse;
 }
 .story{
     margin-right: 10px;
-    width: 537px;
-    height: 400px;
+    width: 400px;
+    height: 320px;
     border: 1px solid #d8d8d8;
     display: inline-block;
 }
@@ -113,23 +113,23 @@ body{
 
     display: inline-block;
     float: left;
-    font-size: 1.3em;
+    /*font-size: 1.3em;*/
     padding-left: 1em;
     padding-top: 1em;
-    width: 45%;
+    width: 40%;
 }
 .story-right{
     margin-top: 10px;
     margin-right: 10px;
     display: inline-block;
     float: right;
-    width: 45%;
+    width: 40%;
     padding-right: 10px;
 }
 .story-right img{
     width: 100%;
     padding-right: 10px;
-    height: 380px;
+    height: 280px;
 
 }
 .title{
@@ -227,7 +227,7 @@ clear: both;
 #footer-left{
     width: 30%;
     margin-left: 180px;
-    font-size: 1.3em;
+    /*font-size: 1.3em;*/
     padding-top: 20px;
     text-align: justify;
     display: inline-block;
