@@ -12,6 +12,7 @@
         <input type="number" id="number2">
     </div>
     <div>
+
         <button type="button" onclick="addition()">addition</button>
         <button type="button" onclick="subtraction()">subtraction</button>
         <button type="button" onclick="multiplication()">multiplication</button>
@@ -19,11 +20,11 @@
     </div>
     <p id="ketqua"></p>
     <script>
-
+        var a=parseInt(document.getElementById('number1').value);
+        var b=parseInt(document.getElementById('number2').value);
         var text;
-        function addition() {
-            var a=parseInt(document.getElementById('number1').value);
-            var b=parseInt(document.getElementById('number2').value);
+        function addition(event,a,b) {
+
             text=a+b;
             document.getElementById('ketqua').innerHTML=text;
 
@@ -51,5 +52,6 @@
         }
 
     </script>
+
 </body>
 </html>

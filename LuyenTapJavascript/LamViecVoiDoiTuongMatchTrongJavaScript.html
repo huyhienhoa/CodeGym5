@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Làm việc với đối tượng</title>
+    <style>
+        .element{
+            width: 300px;
+            float: left;
+            display: inline-block;
+        }
+        #buoc2{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <div class="element">
+            <p>Sinh số ngẫu nhiên từ 0 đến 10</p>
+            <button onclick="between0and10()">Random</button>
+            <div>Kết quả: </div>
+            <p id="demo"></p>
+            <script>
+                function between0and10() {
+                    var x = Math.round(Math.random() * 10);
+                    document.getElementById("demo").innerHTML = x;
+                }
+            </script>
+        </div>
+        <div class="element">
+            <p>Sinh số ngẫu nhiên từ 0 đến 400</p>
+            <button onclick="between0and400()">Random</button>
+            <div>Kết quả: </div>
+            <p id="ketqua"></p>
+            <script>
+                function between0and400() {
+                    var x = Math.round(Math.random() * 400);
+                    document.getElementById("ketqua").innerHTML = x;
+                }
+            </script>
+        </div>
+        <div class="element">
+            <p>Sinh số ngẫu nhiên từ 50 đến 100</p>
+            <button onclick="between50and100()">Random</button>
+            <div>Kết quả: </div>
+            <p id="ketqua2"></p>
+            <script>
+                function between50and100() {
+                    var x = Math.random();
+                    if(x>=0.5)
+                        document.getElementById("ketqua2").innerHTML = Math.round(x*100);
+                    else{
+                        between50and100();
+                    }
+                }
+            </script>
+        </div>
+
+
+    </div>
+
+    <div id="buoc2">
+        <hr>
+        <div>
+            <button type="button" onclick="min()">Test Math</button>
+            <p id="max"></p>
+            <script>
+                function min() {
+                    var min=Math.min(5,7,2,9);
+                    document.getElementById('max').innerHTML="Giá trị nhỏ nhất trong các phần tử 5,7,2,9 là: "+min;
+                }
+            </script>
+        </div>
+    </div>
+
+</body>
+</html>

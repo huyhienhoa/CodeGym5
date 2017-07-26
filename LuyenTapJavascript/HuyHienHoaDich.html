@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Huy Hiền Hòa dịch</title>
+    <style>
+        body{
+            margin: 0 auto;
+        }
+        #content{
+            width: 960px;
+            margin: 0 auto;
+            position: relative;
+            text-align: center;
+        }
+        #left{
+            width: 50%;
+            display: inline-block;
+            float: left;
+        }
+        #right{
+            width: 50%;
+            display: inline-block;
+            float: left;
+        }
+        #transfer{
+            position: absolute;
+            top:150px;
+            left: 450px;
+        }
+        #dich{
+            margin-top: 10px;
+            margin-left: -150px;
+            padding: 3px 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1>Từ điển Anh-Việt tốt nhất hành tinh</h1>
+        <div id="left">
+            <h3 id="from-language">Tiếng Anh</h3>
+            <textarea rows="5" cols="30" id="tienganh"></textarea><br>
+            <button type="button" onclick="dich()" id="dich">Dịch</button>
+
+        </div>
+        <div id="right">
+            <h3 id="to-language">Tiếng Việt</h3>
+            <textarea rows="5" cols="30" id="tiengviet"></textarea>
+        </div>
+        <button type="button" style="background-color: white" id="transfer" onclick="transfer()"><img src="images/transfers.png" width="20" ></button>
+    </div>
+    <script>
+        function dich() {
+            var tienganh=[['hello','noun','xin chào VN'],['good','adjective','Mọi thứ đều tốt'],['goodbye','noun','Tạm biệt mọi người']];
+            var tiengviet=[['xin chào','danh từ','hello everyone'],['tốt','tính từ','very good'],['tạm biệt','danh từ','goodbye everyone']];
+            var word=document.getElementById('tienganh').value;
+            var test=document.getElementById("from-language").innerHTML;
+//            document.write(test);
+            if(test=='Tiếng Anh')
+            {
+                var flag1=0;
+                for(var i=0;i<tienganh.length;i++){
+                    if(word==tienganh[i][0])
+                    {
+                        flag1=1;
+                        document.getElementById('tiengviet').innerHTML="Nghĩa: "+tiengviet[i][0]+"\nTừ loại: "+tiengviet[i][1]+"\nVí dụ: "+tiengviet[i][2];
+                        break;
+                    }
+                }
+                if(flag1==0){
+                    alert("Từ điển của Huy Hiền Hòa tạm thời chưa cập nhật từ này :D ");
+                }
+            }
+            else{
+                var flag=0;
+                for(var j=0;j<tiengviet.length;j++){
+                    if(word==tiengviet[j][0])
+                    {
+                        flag=1;
+                        document.getElementById('tiengviet').innerHTML="Meaning: "+tienganh[j][0]+"\nType: "+tienganh[j][1]+"\nExample: "+tienganh[j][2];
+                        break;
+                    }
+                }
+                if(flag==0){
+                    alert("Từ điển của Huy Hiền Hòa tạm thời chưa cập nhật từ này :D ");
+                }
+            }
+
+
+        }
+        function transfer() {
+            var tv,to_language;
+            var from_language=document.getElementById("from-language").innerHTML;
+            to_language=document.getElementById("to-language").innerHTML;
+
+            document.getElementById("to-language").innerHTML=from_language;
+            document.getElementById("from-language").innerHTML=to_language;
+
+//            var ta=document.getElementById('tienganh').value;
+//            tv=document.getElementById('tiengviet').value;
+//
+//            document.getElementById('tiengviet').value=ta;
+//            document.getElementById('tienganh').value =tv;
+
+
+        }
+    </script>
+</body>
+
+</html>

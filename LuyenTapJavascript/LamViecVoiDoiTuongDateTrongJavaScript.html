@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Làm việc với các đối tượng</title>
+</head>
+<body>
+    <div>
+        <input type="date" id="date">
+        <button type="button" onclick="check();">Check</button>
+        <p id="ketqua"></p>
+    </div>
+    <script>
+        function check() {
+            var ngaysinh;
+            ngaysinh=document.getElementById("date");
+            ngaysinh=new String(ngaysinh.value);
+            ngaysinh=new Date(ngaysinh);
+            var now=new Date();
+            var offset=now.getTime()-ngaysinh.getTime();
+            var year=Math.round(offset/1000/60/60/24/365);
+            var month=Math.round(offset/1000/60/60/24/30.4);
+            var day=Math.round(offset/1000/60/60/24);
+            var hour=Math.round(offset/1000/60/60);
+            var minute=Math.round(offset/1000/60);
+            var second=Math.round(offset/1000);
+            document.getElementById('ketqua').innerHTML="Tôi đã sống "+year+" năm"+
+                    "<br>Tôi đã sống "+month+" tháng"+
+                    "<br>Tôi đã sống "+day+" ngày"+
+                    "<br>Tôi đã sống "+hour+" giờ"+
+                    "<br>Tôi đã sống "+minute+" phút"+
+                    "<br>Tôi đã sống "+second+" giây";
+
+        }
+    </script>
+</body>
+</html>
