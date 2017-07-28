@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Làm việc với đối tượng</title>
+</head>
+<body>
+    <div>
+        <div id="buoc1">
+            <h3>Bước 1: Đếm số ký tự "a" xuất hiện trong chuỗi:"Tôi yêu ngôn ngữ lập trình Javascript"</h3>
+            <button type="button" onclick="dem()">Đếm</button>
+            <p id="ketqua"></p>
+        </div>
+        <div id="buoc2">
+            <h3>Bước 2+3: Tách và đếm số từ trong chuỗi:"Tôi yêu ngôn ngữ lập trình Javascript"</h3>
+            <button type="button" onclick="tachvadem()">Đếm</button>
+            <p id="kq"></p>
+        </div>
+        <div id="buoc4">
+            <h3>Bước 4: thay thế chữ 'Javascript' bằng chữ 'Typescript'</h3>
+            <button type="button" onclick="thaythe()">Thay thế</button>
+            <p>Tôi yêu ngôn ngữ lập trình Javascript</p>
+            <p id="kq2"></p>
+        </div>
+    </div>
+    <script>
+        function dem() {
+            var str="Tôi yêu ngôn ngữ lập trình Javascript";
+            var dem=0;
+            var arr=str.split("");
+            var length=arr.length;
+//            document.write(arr[0]);
+            for(i=0;i<length;i++){
+                if(arr[i]=="a")
+                        dem++;
+            }
+            document.getElementById('ketqua').innerHTML="Có "+dem+" chữ a trong chuỗi: Tôi yêu ngôn ngữ lập trình Javascript";
+        }
+        function tachvadem() {
+            var str="Tôi yêu ngôn ngữ lập trình Javascript";
+            var arr=str.split(" ");
+            var length=arr.length;
+            document.getElementById('kq').innerHTML="Có "+length+" từ trong chuỗi: Tôi yêu ngôn ngữ lập trình Javascript"
+        }
+        function thaythe() {
+            var str="Tôi yêu ngôn ngữ lập trình Javascript";
+            var n=str.replace("Java","Type");
+            document.getElementById('kq2').innerHTML="Kết quả sau khi thay thế: "+n;
+
+        }
+//        document.write(thaythe);
+    </script>
+</body>
+</html>

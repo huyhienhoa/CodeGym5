@@ -19,45 +19,7 @@
             display: none;
         }
     </style>
-    <script>
 
-        function hienthi() {
-            document.getElementById('form').style.display="block";
-        }
-        function add() {
-            var ten=document.getElementById('ten').value;
-            var sanpham=[];
-            sanpham.push(ten);
-//            document.write(sanpham.join());
-            document.getElementById('form').style.display="none";
-        }
-
-        function ketqua(){
-
-                sanpham=getsanpham();
-                for(var i=0;i<sanpham.length;i++){
-                document.write('<tr>');
-                document.write('<td>');
-                document.write(i+1);
-                document.write('</td>');
-                document.write('<td>');
-                document.write(sanpham[i]);
-                document.write('</td>');
-                document.write('<td>');
-                document.write('<button type="submit">');
-                document.write("Sửa");
-                document.write('</button>');
-                document.write('</td>');
-                document.write('<td>');
-                document.write('<button>');
-                document.write("Xóa");
-                document.write('</button>');
-                document.write('</td>');
-                document.write('</tr>')
-
-            }
-        }
-    </script>
 </head>
 <body>
     <div>
@@ -68,14 +30,30 @@
                 <th>Sửa</th>
                 <th>Xóa</th>
             </tr>
-            <span id="ketqua"></span>
+            <script>
+                sanpham=["Bánh","Kẹo","Đường"];
+                for(var i=0;i<sanpham.length;i++) {
+                    document.write('<tr>');
+                    document.write('<td>');
+                    document.write(i + 1);
+                    document.write('</td>');
+                    document.write('<td>');
+                    document.write(sanpham[i]);
+                    document.write('</td>');
+                    document.write('<td>');
+                    document.write('<button type="submit">');
+                    document.write("Sửa");
+                    document.write('</button>');
+                    document.write('</td>');
+                    document.write('<td>');
+                    document.write('<button>');
+                    document.write("Xóa");
+                    document.write('</button>');
+                    document.write('</td>');
+                    document.write('</tr>')
+                }
+            </script>
         </table>
-        <button type="button" id="hienthi" onclick="hienthi();">Thêm mới</button>
-        <div id="form">
-            <div>Tên:</div>
-            <div><input type="text" id="ten"></div>
-            <button type="button" id="add" onclick="add();ketqua();">Thêm mới</button>
-        </div>
 
     </div>
 </body>

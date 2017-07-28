@@ -1,29 +1,30 @@
 body{
     font-family: Arial;
     margin: 0;
-    line-height: 2.2em;
+    line-height: 1.2em;
     background-color: #ebfff0;
 }
 
 #header{
     background-image: url("images/header-bg.jpg");
-    height: 262px;
+    height: 260px;
     -o-background-size: contain;
     background-repeat:repeat ;
 }
 #logo{
-    margin-left: 180px;
+    margin-left: 20px;
     padding-top: 50px ;
     display: inline-block;
     float: left;
-    width: 20%;
+    width: 25%;
 }
 #logo img{
     margin-left: 80px;
     margin-top: 20px;
 }
 #banner{
-    padding: 5px 0;
+    text-align: center;
+    padding-top: 5px;
     display: inline-block;
     width: 40%;
 }
@@ -34,23 +35,23 @@ body{
 
 }
 #search{
-    width: 20%;
+    width: 30%;
     display: inline-block;
     float: right;
-    margin-right: 200px;
+    margin-right: 35px;
     margin-top: 90px;
 }
 #search input{
     padding: 10px 5px;
-    width: 75%;
+    width: 60%;
 
 
 }
 #search button{
-    padding-top: 11px;
-    padding-bottom: 11px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     /*font-size: large;*/
 
 }
@@ -58,10 +59,11 @@ body{
     clear: both;
     background-color: black;
     height: 50px;
-    width: 1670px;
-    margin-left: 180px;
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
     border-radius:  10px 10px 0 0;
-    margin-top: -10px;
+    /*margin-top: -100px;*/
 }
 #header-link ul,#header-link li{
     margin: 0;
@@ -69,7 +71,7 @@ body{
     text-transform: uppercase;
     text-align: center;
     padding-right: 40px;
-    padding-top: 5px;
+    padding-top: 7px;
     display: inline-block;
 
 }
@@ -77,7 +79,7 @@ body{
     list-style-type: none;
     display: block;
     float: left;
-    font-size: large ;
+    /*font-size: large ;*/
 }
 #header-link li:first-child{
     margin-left: 50px;
@@ -94,7 +96,7 @@ body{
     display: inline-block;
     float: right;
     color: white;
-    padding-top: 10px;
+    padding-top: 13px;
     padding-right: 50px;
 }
 #header-link-right span{
@@ -104,8 +106,8 @@ body{
 }
 .story{
     margin-right: 10px;
-    width: 400px;
-    height: 320px;
+    width: 365px;
+    height: 300px;
     border: 1px solid #d8d8d8;
     display: inline-block;
 }
@@ -113,18 +115,17 @@ body{
 
     display: inline-block;
     float: left;
-    /*font-size: 1.3em;*/
     padding-left: 1em;
     padding-top: 1em;
-    width: 40%;
+    width: 45%;
 }
 .story-right{
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 5px;
     display: inline-block;
     float: right;
-    width: 40%;
-    padding-right: 10px;
+    width: 45%;
+    padding-right: 5px;
 }
 .story-right img{
     width: 100%;
@@ -142,26 +143,26 @@ body{
 }
 .view button{
     margin-top: 10px;
-    margin-left: 10px;
-    font-size: large;
-    padding: 10px 20px;
+    margin-left: 5px;
+    font-size: 1.1em;
+    padding: 7px 15px;
 }
 #content{
-    margin: 5px 180px;
+    margin: 5px 100px;
 }
 .top{
     margin-top: 20px;
 }
 .left{
-    margin-left: 4px;
+    margin-left: 9px;
 }
 .category{
-    font-size: 3em;
+    /*font-size: 3em;*/
     color: orange;
 
 }
 .page-transition{
-    font-size: 2em;
+    /*font-size: 2em;*/
     margin-left: 415px;
     margin-top: 20px;
 }
@@ -171,7 +172,7 @@ body{
 #content2{
 clear: both;
 }
-#content2-left{
+#content2-left,.noidungtrai{
     width: 68%;
     display: inline-block;
 }
@@ -181,21 +182,24 @@ clear: both;
     display: inline-block;
     float: right;
     height: auto;
-
-    margin-top: 96px;
+    margin-top: 60px;
 
 }
 .content2-right-content{
-    font-size: 1.5em;
+    /*font-size: 1.5em;*/
     border: 1px solid #CDCDCD;
 }
 .category-good{
-    font-size: 1.6em;
+    /*font-size: 1.6em;*/
     color: white;
-    background-color: #90ff07;
+    background-color: #09dc04;
     padding: 20px 20px;
     text-align: center;
 
+}
+.content2-right-content ul{
+    margin-right: 20px;
+    padding-left: 20px;
 }
 .left-big{
     margin-left: 15px;
@@ -206,7 +210,11 @@ clear: both;
     /*padding-left: 30px;*/
 }
 #content2-right hr{
-    margin-top: 72px;
+    margin-top: 182px;
+}
+#content3{
+    clear: both;
+    margin-top: 10px;
 }
 #content3-right{
     display: inline-block;
@@ -215,20 +223,21 @@ clear: both;
 #content3-left{
     display: inline-block;
     float: left;
-    margin-top: 96px;
+    margin-top: 62px;
+    width: 30%;
 }
 #footer{
     color: white;
     clear: both;
-    height: 170px;
+    height: 160px;
     background-image: url("images/header-bg.jpg");
     background-repeat: repeat;
 }
 #footer-left{
     width: 30%;
-    margin-left: 180px;
+    margin-left: 100px;
     /*font-size: 1.3em;*/
-    padding-top: 20px;
+    padding-top: 25px;
     text-align: justify;
     display: inline-block;
     float: left;
@@ -236,6 +245,121 @@ clear: both;
 #footer-right{
     display: inline-block;
     float: right;
-    padding-right: 185px;
+    padding-right: 100px;
     padding-top: 40px;
+}
+.author,.type{
+    font-size: 0.9em;
+}
+
+
+/*Begin TrangCon1*/
+#content #link span:not(:last-child){
+    margin-right: 5px;
+    border-right: 1px solid #CDCDCD;
+    padding-right: 10px;
+}
+#content #link span a, .chuongmoi-left a ,.chuongmoi-right{
+    text-decoration: none;
+    line-height: 2em;
+}
+#content #link span a:hover{
+    color: red;
+}
+#content2 .noidungtrai{
+
+    width: 66%;
+    display:inline-block;
+
+}
+#content2 .noidungtrai .noidungtrai1{
+    border: 1px solid #CDCDCD;
+    height: 300px;
+}
+.noidungtrai-image ,.noidungtrai-title{
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    margin-left: 15px;
+}
+.noidungtrai-title{
+    padding-top: 30px;
+    padding-left: 20px;
+    line-height: 1.6em;
+}
+#content2 .noidungtrai .noidungtrai-title label{
+    width: 110px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: right;
+
+}
+.noidungtrai-right{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 50px;
+    float: right;
+}
+.noidungtrai-right .view1 button,.binhluan button{
+    margin-top: 10px;
+    padding: 7px 12px;
+    margin-right: 5px;
+}
+.chuongmoi{
+    width: 100%;
+    display: inline-block;
+    clear: both;
+}
+.chuongmoi-left{
+    width: 80%;
+    display: inline-block;
+    float: left;
+}
+.chuongmoi-right{
+    width: 17%;
+    display: inline-block;
+    float:right ;
+}
+.chuongmoi select{
+    padding: 7px 10px;
+    margin: 20px 200px;
+}
+.noidungphai{
+    display: inline-block;
+    float: right;
+    width: 30%;
+    margin-right: 30px;
+    margin-top: -20px;
+}
+.noidungphai hr{
+    margin-top: 35px;
+}
+.danhgia{
+    display: inline-block;
+    float: left;
+}
+.binhluan{
+    display: inline-block;
+    width: 68%;
+
+}
+#content4 .content2-right-content{
+    display: inline-block;
+    width: 28%;
+}
+.binhluan button{
+    margin-left: 150px;
+    margin-top: 70px;
+    font-size: 1.3em;
+}
+.hr{
+    margin:30px 0;
+    clear: both;
+}
+button{
+    border: 1px solid #CDCDCD;
+}
+button:hover{
+    background-color: #09dc04;
+    color: white;
 }
