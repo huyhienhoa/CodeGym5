@@ -5,50 +5,50 @@
     <title>Good-Fast-Cheap</title>
 </head>
 <body>
-    <h1>Good-Fast-Cheap</h1>
-    <div>
-        <label>Good</label><input type="checkbox" id="Good" onclick="checkbox1()">
-    </div>
-    <div><label>Cheap</label><input type="checkbox" id="Cheap" onclick="checkbox2()"></div>
-    <div><label>Fast</label><input type="checkbox" id="Fast" onclick="checkbox3()"></div>
+<h1>Good-Fast-Cheap</h1>
+<div>
+    <label>Good</label><input type="checkbox" id="Good" onclick="checkbox1()">
+</div>
+<div><label>Cheap</label><input type="checkbox" id="Cheap" onclick="checkbox2()"></div>
+<div><label>Fast</label><input type="checkbox" id="Fast" onclick="checkbox3()"></div>
 
-    <script>
-        function checkbox1() {
-            var good = document.getElementById("Good");
-            var fast = document.getElementById("Fast");
-            var cheap = document.getElementById("Cheap");
-            if(cheap.checked==true){
-                if(fast.checked==true){
-                    if(good.checked==true){
-                        document.getElementById("Fast").checked=false;
-                    }
+<script>
+    function checkbox1() {
+        var good = document.getElementById("Good");
+        var fast = document.getElementById("Fast");
+        var cheap = document.getElementById("Cheap");
+        if (cheap.checked == true) {
+            if (fast.checked == true) {
+                if (good.checked == true) {
+                    document.getElementById("Fast").checked = false;
                 }
             }
         }
-        function checkbox2() {
-            var good = document.getElementById("Good");
-            var fast = document.getElementById("Fast");
-            var cheap = document.getElementById("Cheap");
-            if(fast.checked==true){
-                if(good.checked==true){
-                    if(cheap.checked==true){
-                        document.getElementById("Good").checked=false;
-                    }
+    }
+    function checkbox2() {
+        var good = document.getElementById("Good");
+        var fast = document.getElementById("Fast");
+        var cheap = document.getElementById("Cheap");
+        if (fast.checked == true) {
+            if (good.checked == true) {
+                if (cheap.checked == true) {
+                    document.getElementById("Good").checked = false;
                 }
             }
         }
-        function checkbox3() {
-            var good = document.getElementById("Good");
-            var fast = document.getElementById("Fast");
-            var cheap = document.getElementById("Cheap");
-            if(good.checked==true){
-                if(cheap.checked==true){
-                    if(fast.checked==true){
-                        document.getElementById("Cheap").checked=false;
-                    }
+    }
+    function checkbox3() {
+        var good = document.getElementById("Good");
+        var fast = document.getElementById("Fast");
+        var cheap = document.getElementById("Cheap");
+        if (good.checked == true) {
+            if (cheap.checked == true) {
+                if (fast.checked == true) {
+                    document.getElementById("Cheap").checked = false;
                 }
             }
         }
-    </script>
+    }
+</script>
 </body>
 </html>
