@@ -69,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FunnyCircles.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FunnyCircles.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FunnyCircles.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="509">
@@ -106,7 +106,7 @@
       <file leaf-file-name="LamViecVoiCanVas.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LamViecVoiCanVas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
+            <state relative-caret-position="763">
               <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -115,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameCoCaRo.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameCoCaRo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GameCoCaRo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+            <state relative-caret-position="355">
+              <caret line="480" column="6" selection-start-line="480" selection-start-column="6" selection-end-line="480" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -177,7 +177,6 @@
         <option value="$PROJECT_DIR$/TimHieuVeCanvas.html" />
         <option value="$PROJECT_DIR$/Good_Fast_Cheap.html" />
         <option value="$PROJECT_DIR$/TroChoiPuzzle.html" />
-        <option value="$PROJECT_DIR$/GameCoCaRo.html" />
         <option value="$PROJECT_DIR$/abc.html" />
         <option value="$PROJECT_DIR$/abc.js" />
         <option value="$PROJECT_DIR$/GameCoCaRo.js" />
@@ -186,6 +185,7 @@
         <option value="$PROJECT_DIR$/Funny circles.html" />
         <option value="$PROJECT_DIR$/FunnyCircles.html" />
         <option value="$PROJECT_DIR$/LamViecVoiCanVas.html" />
+        <option value="$PROJECT_DIR$/GameCoCaRo.html" />
       </list>
     </option>
   </component>
@@ -273,7 +273,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebDocTruyenOnline" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -378,17 +378,18 @@
       <workItem from="1501690575062" duration="3133000" />
       <workItem from="1501855590916" duration="4703000" />
       <workItem from="1501935304886" duration="26000" />
+      <workItem from="1501948752458" duration="258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175157000" />
+    <option name="totallyTimeSpent" value="175415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="728" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2840735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28866768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -584,13 +585,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../WebDocTruyenOnline/TrangCon1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="164" column="25" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebDocTruyenOnline/TrangCon1.html" />
     <entry file="file://$PROJECT_DIR$/BatTatDen.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -693,14 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameCoCaRo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Good_Fast_Cheap.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -743,6 +730,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FunnyCircles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TimHieuVeCanvas.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -753,7 +750,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LamViecVoiCanVas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
+        <state relative-caret-position="763">
           <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -761,13 +758,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FunnyCircles.html">
+    <entry file="file://$PROJECT_DIR$/GameCoCaRo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="355">
+          <caret line="480" column="6" selection-start-line="480" selection-start-column="6" selection-end-line="480" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
