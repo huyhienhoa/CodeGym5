@@ -6,7 +6,7 @@ body{
 }
 
 #header{
-    background-image: url("images/header-bg.jpg");
+    background-image: url("../images/header-bg.jpg");
     height: 260px;
     -o-background-size: contain;
     background-repeat:repeat ;
@@ -230,7 +230,7 @@ clear: both;
     color: white;
     clear: both;
     height: 160px;
-    background-image: url("images/header-bg.jpg");
+    background-image: url("../images/header-bg.jpg");
     background-repeat: repeat;
 }
 #footer-left{
@@ -362,4 +362,72 @@ button{
 button:hover{
     background-color: #09dc04;
     color: white;
+}
+/*End TrangCon1*/
+
+
+/*Begin TrangCon3*/
+
+.noidung{
+    text-align: justify;
+    height: 2500px;
+    border: 1px solid #CDCDCD;
+}
+.noidung h2, .noidung h4{
+    text-align: center;
+}
+.noidung #noidungtrai,.noidung #noidungphai{
+    display: inline-block;
+    width: 44%;
+    float: left;
+    line-height: 1.7em;
+    padding: 0 2%;
+
+}
+.noidung #noidungphai{
+    margin-left: 3%;
+}
+.noidung .chuongmoi-trai{
+    display: inline-block;
+    float: left;
+    width: 60%;
+    margin-left: 10%;
+    line-height: 1.7em;
+
+}
+.noidung .chuongmoi-trai a{
+    text-decoration: none;
+
+}
+.noidung .chuongmoi-trai a:hover{
+    color: red;
+
+}
+.noidung .chuongmoi-phai {
+    display: inline-block;
+    float: right;
+    width: 20%;
+    line-height: 1.7em;
+
+}
+#chon{
+    clear: both;
+}
+#chon select{
+    padding: 7px 10px;
+    margin: 3% 10%;
+}
+#chon button{
+    padding: 7px 10px;
+}
+/*End TrangCon3*/
+a:hover{
+    color: red;
+}
+.noidung .binhluan{
+    padding-left: 10%;
+    text-align: center;
+}
+.noidung .binhluan .danhgia{
+    padding-left: 4%;
 }

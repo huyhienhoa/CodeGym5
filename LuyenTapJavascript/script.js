@@ -37,23 +37,23 @@ function Hero(image, top, left, size){
 var hero = new Hero('nvhoathinh.png', 20, 30, 200);
 var flag=0;
 function start(){
-  if(hero.left < window.innerWidth - hero.size-20&&flag==0){
+  if(hero.left < window.innerWidth - hero.size-50&&flag===0){
     hero.moveRight();
   }
-  else if(hero.top<window.innerHeight-hero.size-10&&flag==0){
+  else if(hero.top<window.innerHeight-hero.size-50&&flag===0){
     hero.moveBottom();
-    if(hero.top==window.innerHeight-hero.size-10){
+    if(hero.top==420){
       flag=1;
     }
   }
-  else if(hero.left>hero.size/5&&flag==1){
+  else if(hero.left>hero.size/5&&flag===1){
     hero.moveLeft();
   }
-  else if(hero.top>hero.size/5&&flag==1){
+  else if(hero.top>hero.size/5&&flag===1){
     hero.moveTop();
   }
   document.getElementById('game').innerHTML = hero.getHeroElement();
   setTimeout(start, 500)
 }
 start();
- setTimeout(onload,5000)
+ setTimeout(onload,5000);
