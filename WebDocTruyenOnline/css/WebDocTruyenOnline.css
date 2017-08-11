@@ -5,6 +5,7 @@ body{
     background-color: #ebfff0;
 }
 
+
 #header{
     background-image: url("../images/header-bg.jpg");
     height: 260px;
@@ -21,6 +22,7 @@ body{
 #logo img{
     margin-left: 80px;
     margin-top: 20px;
+    width: 60%;
 }
 #banner{
     text-align: center;
@@ -210,7 +212,7 @@ clear: both;
     /*padding-left: 30px;*/
 }
 #content2-right hr{
-    margin-top: 182px;
+    margin-top: 178px;
 }
 #content3{
     clear: both;
@@ -370,7 +372,7 @@ button:hover{
 
 .noidung{
     text-align: justify;
-    height: 2500px;
+    height: 3000px;
     border: 1px solid #CDCDCD;
 }
 .noidung h2, .noidung h4{
@@ -378,7 +380,7 @@ button:hover{
 }
 .noidung #noidungtrai,.noidung #noidungphai{
     display: inline-block;
-    width: 44%;
+    width: 47%;
     float: left;
     line-height: 1.7em;
     padding: 0 2%;
@@ -430,4 +432,69 @@ a:hover{
 }
 .noidung .binhluan .danhgia{
     padding-left: 4%;
+}
+
+/*BEGIN RESPONSIVE CSS*/
+* {
+    box-sizing: border-box;
+}
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media only screen and(min-width: 992px) {
+    /*!* For medium devices*/
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.33%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+}
+
+
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+.row:after{
+    content: "";
+    clear: both;
+    display: table;
 }

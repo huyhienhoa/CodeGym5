@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm hiểu về Bxslider</title>
+    <script src="javascript/jquery-3.2.1.js"></script>
+    <script src="javascript/jquery.bxslider.js"></script>
+    <link href="javascript/jquery.bxslider.css" rel="stylesheet" type="text/css">
+    <style>
+        .content{
+            text-align: center;
+            width: 1000px;
+            margin-left: 150px;
+        }
+        img{
+            height: 500px;
+            width: 1000px;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <h1 id="title"></h1>
+    <ul class="bxslider">
+        <li><img src="images/thiennhien.jpg" title="Ảnh thiên nhiên"></li>
+        <li><img src="images/thiennhien1.jpg" /></li>
+        <li><img src="images/thiennhien2.jpg" /></li>
+        <li><img src="images/thiennhien3.jpg" /></li>
+        <li><img src="images/thiennhien4.jpg" /></li>
+    </ul>
+</div>
+
+
+<script>
+    document.getElementById("title").innerHTML="Auto show with start / stop controls";
+    $(document).ready(function () {
+//        slider = $('.bxslider').bxSlider();
+//        slider.goToNextSlide();
+        $('.bxslider').bxSlider({
+            auto: false,//tự động next trang
+            pause:1000,//độ trễ slider
+            mode:'horizontal',//chiều chuyển slide
+            startSlide:1,//slide bắt đầu
+            captions:true,//hiển thị title là captions
+            autoControls: true,//Hiển thị controls
+            slideWidth:1000,//độ rộng slide
+            slideHeight:300,//độ cao slide
+            pager: true,// hiển thị hay không dấu chấm tròn.
+            pagerType:'short',
+            pagerShortSeparator:'-'
+        });
+    })
+</script>
+
+
+</body>
+</html>

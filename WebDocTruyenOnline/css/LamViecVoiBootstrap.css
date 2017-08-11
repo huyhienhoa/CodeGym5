@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    background-color: #EBFFF0;
+    line-height: 1.65em;
+}
+.webtruyen{
+    width: 100%;
+}
+.navbar-inverse{
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: repeat;
+    border: none;
+}
+
+.container,.container-fluid{
+    margin: 0 auto;
+}
+header{
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+.logo{
+    padding-top: 4%;
+    padding-left: 4%;
+}
+.search{
+    padding-top: 25%;
+    margin-right: 10%;
+}
+.chonchuong .btn{
+    padding: 5px 10%;
+}
+.navbar-collapse{
+    background-color: black;
+    border-radius:  10px 10px 0 0;
+
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: white;
+}
+.navbar-inverse .navbar-nav li a:hover{
+    color: red;
+}
+.navbar-brand{
+   padding-left: 17%;
+}
+.story{
+    margin-right: 10px;
+    width: 365px;
+    height: 270px;
+    border: 1px solid #d8d8d8;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.story a{
+    color: black;
+}
+.story-left{
+
+    display: inline-block;
+    float: left;
+    padding-left: 1em;
+    padding-top: 1em;
+    width: 50%;
+}
+.story-right{
+    margin-top: 10px;
+    margin-right: 5px;
+    display: inline-block;
+    float: right;
+    width: 45%;
+    padding-right: 5px;
+}
+.story-right img{
+    width: 100%;
+    /*padding-right: 10px;*/
+    height: 240px;
+
+}
+.title{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.view button{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 1.1em;
+    padding: 7px 15px;
+}
+
+.page-transition{
+    display: inline-block;
+    clear: both;
+
+}
+.page-transition span{
+    margin-left: 5px;
+}
+
+hr{
+    width: 90%;
+}
+
+.truyenhaynhat,.truyenbandaxem,.truyenbandaxem1,.truyenhaynhat1{
+    border: 1px solid #CDCDCD;
+}
+.tieude{
+    background-color: #5bc0de;
+    color: white;
+    padding: 2%;
+    padding-left: 5%;
+}
+
+.truyenhaynhat,.truyenbandaxem,.truyenbandaxem1,.truyenhaynhat1{
+    margin-top: 62px;
+    margin-right: 50px;
+}
+.truyenhaynhat li,.truyenbandaxem li, .truyenhaynhat1 li{
+    margin-left: 1%;
+}
+
+.truyenhaynhat .tieudecon,.truyenhaynhat1 .tieudecon{
+    margin-left: 7%;
+}
+
+.footer{
+    background-image:url("../images/header-bg.jpg") ;
+    background-repeat: repeat-x;
+    background-size: contain;
+    color: white;
+    padding: 2%;
+}
+.noidung .container{
+    border: 1px solid #CDCDCD;
+}
+
+
+@media (max-width: 2000px) {
+
+.truyenhaynhat1,.truyenbandaxem1{
+    display: none;
+}
+    .truyenbandaxem{display: block}
+    body{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1119px) {
+    .container{
+        margin-left: 9%;
+    }
+    .truyenhaynhat,.truyenbandaxem,.truyenbandaxem1{
+        display: none;
+    }
+    .truyenmoi{
+        width: 100%;
+    }
+    .truyenhaynhat1{
+        display: block;
+    }
+
+
+
+}
+@media (max-width:991px){
+
+    .search{
+        padding: 3%;
+    }
+    .banner{
+        padding-top: 3%;
+    }
+    .truyenhaynhat{
+        display: none;
+    }
+
+    .truyenhaynhat1{
+        display: none;
+    }
+    .truyenmoi{
+        width: 100%;
+    }
+
+}
+@media (max-width: 767px) {
+
+    .navbar-header{
+        background-color: black;
+    }
+    .container{
+        margin-left: 10%;
+    }
+    .truyenhaynhat{
+        margin-left: -15%;
+        width: 90%;
+
+    }
+    .truyendexuat{
+        margin-left: -3%;
+    }
+}
+@media (max-width: 480px){
+    body{
+        font-size: 12px;
+    }
+    .container{
+        margin-left: 6%;
+    }
+    .story{
+        margin-right: 5%;
+        width: 90%;
+        height: 90%;
+        border: 1px solid #d8d8d8;
+        display: inline-block;
+        padding-bottom: 5%;
+    }
+    .title,.view button{
+        font-size: 1em;
+    }
+
+    .story-right{
+        margin-top: 10%;
+        margin-right: 3%;
+        display: inline-block;
+        float: right;
+        width: 100%;
+        padding-right: 3%;
+        height: 90%;
+    }
+
+    .navbar-brand{
+        padding-left: 1%;
+    }
+    .story-left{
+        display: none;
+    }
+    .navbar-header{
+        background-color: black;
+    }
+    .truyenhaynhat{
+        width: 110%;
+    }
+    .truyenhaynhat1{
+        display: none;
+    }
+
+}
