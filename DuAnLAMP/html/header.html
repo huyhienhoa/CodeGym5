@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/jquery.bxslider.css">
+    <link href="../css/bootstrap-theme.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link type="text/css" rel="stylesheet" href="../css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="../css/hover.css" rel="stylesheet" type="text/css">
+    <script src="../javascript/jquery-3.2.1.js"></script>
+    <script src="../javascript/bootstrap.js"></script>
+    <script src="../javascript/jquery.bxslider.js"></script>
+    <script src="../javascript/index.js"></script>
+
+</head>
+<body>
+<div class="header">
+    <div class="header-top">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <ul class="nav navbar-nav">
+                    <li><a href="#"><span class="glyphicon glyphicon-phone"></span> 0974.023.401</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> WatchSupport@gmail.com</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"> Giới thiệu</a></li>
+                    <li><a href="#"> Chính sách</a></li>
+                    <li><a href="#"> Liên hệ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="header-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-offset-1 col-md-2">
+                    <canvas id="canvas" width="150" height="150" class="hvr-grow-rotate"></canvas>
+                </div>
+                <div class="col-xs-12 col-md-9">
+                    <h1>2H1M Watch</h1>
+                    <h3>Thương hiệu phân phối đồng hồ số 1 Việt Nam</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-link">
+        <nav class="navbar navbar-inverse link">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#" target="_blank">2H1MWatch.vn</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="header.html" target="_blank">TRANG CHỦ</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">ĐỒNG HỒ NAM
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" target="_blank"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">ĐỒNG HỒ NỮ</a></li>
+                        <li><a href="#">ĐỒNG HỒ ĐÔI</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <form class="navbar-form navbar-right">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-default" type="submit">
+                                            <i class="glyphicon glyphicon-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </li>
+                        <li><a href="#"><span class="fa fa-shopping-cart zoom-icon"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<script>
+
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    var radius = canvas.height / 2;
+    ctx.translate(radius, radius);
+    radius = radius * 0.90;
+    setInterval(drawClock, 1000);
+
+    function drawClock() {
+        drawFace(ctx, radius);
+        drawNumbers(ctx, radius);
+        drawTime(ctx, radius);
+        drawText(ctx,radius);
+    }
+
+    function drawFace(ctx, radius) {
+        var grad;
+        ctx.beginPath();
+        ctx.arc(0, 0, radius, 0, 2*Math.PI);
+        ctx.fillStyle = 'black';
+        ctx.fill();
+        grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
+        grad.addColorStop(0, '#333');
+        grad.addColorStop(0.5, 'white');
+        grad.addColorStop(1, '#333');
+        ctx.strokeStyle = grad;
+        ctx.lineWidth = radius*0.1;
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
+        ctx.fillStyle = '#333';
+        ctx.fill();
+    }
+
+    function drawNumbers(ctx, radius) {
+        var ang;
+        var num;
+        ctx.font = radius*0.2 + "px Lobster";
+        ctx.textBaseline="middle";
+        ctx.textAlign="center";
+        ctx.fillStyle='#08FF00';
+        for(num = 1; num < 13; num++){
+            ang = num * Math.PI / 6;
+            ctx.rotate(ang);
+            ctx.translate(0, -radius*0.85);
+            ctx.rotate(-ang);
+            ctx.fillText(num.toString(), 0, 0);
+            ctx.rotate(ang);
+            ctx.translate(0, radius*0.85);
+            ctx.rotate(-ang);
+        }
+    }
+    function drawText(ctx,radius) {
+        ctx.font=radius*0.3 +"px Lobster";
+        ctx.textBaseline="middle";
+        ctx.textAlign="center";
+        ctx.fillStyle='#0cfffa';
+
+    }
+
+    function drawTime(ctx, radius){
+        var now = new Date();
+        var hour = now.getHours();
+        var minute = now.getMinutes();
+        var second = now.getSeconds();
+        //hour
+        hour=hour%12;
+        hour=(hour*Math.PI/6)+
+                (minute*Math.PI/(6*60))+
+                (second*Math.PI/(360*60));
+        drawHand(ctx, hour, radius*0.5, radius*0.07);
+        //minute
+        minute=(minute*Math.PI/30)+(second*Math.PI/(30*60));
+        drawHand(ctx, minute, radius*0.8, radius*0.07);
+        // second
+        second=(second*Math.PI/30);
+        drawHand(ctx, second, radius*0.9, radius*0.02);
+    }
+
+    function drawHand(ctx, pos, length, width) {
+
+        ctx.beginPath();
+        ctx.lineWidth = width;
+        ctx.lineCap = "round";
+        ctx.moveTo(0,0);
+        ctx.rotate(pos);
+        ctx.lineTo(0, -length);
+        ctx.stroke();
+        ctx.rotate(-pos);
+//        ctx.fillText("2H1M-Watch",0.5,0.5);
+
+    }
+
+</script>
+</body>
+</html>

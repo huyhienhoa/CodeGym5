@@ -34,11 +34,9 @@
 <script>
     document.getElementById("title").innerHTML="Auto show with start / stop controls";
     $(document).ready(function () {
-//        slider = $('.bxslider').bxSlider();
-//        slider.goToNextSlide();
         $('.bxslider').bxSlider({
-            auto: false,//tự động next trang
-            pause:1000,//độ trễ slider
+            auto: true,//tự động next trang
+            pause:4000,//độ trễ slider
             mode:'horizontal',//chiều chuyển slide
             startSlide:1,//slide bắt đầu
             captions:true,//hiển thị title là captions
@@ -48,6 +46,7 @@
             pager: true,// hiển thị hay không dấu chấm tròn.
             pagerType:'short',
             pagerShortSeparator:'-'
+
         });
     })
 </script>
