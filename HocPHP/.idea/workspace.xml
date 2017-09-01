@@ -2,35 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a92d9471-1058-4259-8268-186097abd64f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChuanMVC/category/controller/ControllerCategory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChuanMVC/category/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChuanMVC/category/model/Category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChuanMVC/category/model/CategoryDB.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChuanMVC/category/model/Product.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChuanMVC/category/util/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChuanMVC/category/util/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChuanMVC/category/view/category_list.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChuanMVC/category/view/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChuanMVC/category/view/frmaddcategory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChuanMVC/category/view/frmupdatecategory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChuanMVC/category/view/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChuanMVC/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChuanMVC/database/Database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DemoMVC/category/controller/ControllerCategory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DemoMVC/category/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DemoMVC/category/model/Category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DemoMVC/category/model/CategoryDB.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DemoMVC/category/view/ListCategory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DemoMVC/category/view/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DemoMVC/category/view/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DemoMVC/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DemoMVC/database/Database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductCatelogMVC/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductCatelogMVC/model/category_db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductCatelogMVC/model/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductCatelogMVC/view/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductCatelogMVC/view/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductCatelogMVC/view/product_list.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HocPHP.iws" />
@@ -114,36 +85,6 @@
               <folding>
                 <element signature="e#7#98#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListCategory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DemoMVC/category/view/ListCategory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ChuanMVC/category/view/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ChuanMVC/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -263,6 +204,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -291,138 +234,34 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ChuanMVC" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HocPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HocPHP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChuanMVC" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HocPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HocPHP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChuanMVC" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="category" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HocPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HocPHP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChuanMVC" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="category" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HocPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HocPHP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChuanMVC" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="category" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HocPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HocPHP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChuanMVC" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="category" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
+              <option name="myItemId" value="ProductManager" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hocLaravel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Web\wamp64\www\CodeGym5\HocPHP\ChuanMVC\category" />
-      <recent name="D:\Web\wamp64\www\CodeGym5\HocPHP\ChuanMVC\category\view" />
-      <recent name="D:\Web\wamp64\www\CodeGym5\HocPHP\ProductManager\controller" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web\wamp64\www\CodeGym5\HocPHP\Product Catalog" />
       <recent name="D:\Web\wamp64\www\CodeGym5\HocPHP\ChuanMVC\category\view" />
       <recent name="D:\Web\wamp64\www\CodeGym5\HocPHP\ChuanMVC\css" />
       <recent name="D:\Web\wamp64\www\CodeGym5\HocPHP\DemoMVC\css" />
       <recent name="D:\Web\wamp64\www\CodeGym5\HocPHP\DemoMVC\category\view" />
-      <recent name="D:\Web\wamp64\www\CodeGym5\HocPHP\ChuanMVC" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Web\wamp64\www\CodeGym5\HocPHP\ChuanMVC\category" />
+      <recent name="D:\Web\wamp64\www\CodeGym5\HocPHP\ChuanMVC\category\view" />
+      <recent name="D:\Web\wamp64\www\CodeGym5\HocPHP\ProductManager\controller" />
     </key>
   </component>
   <component name="RunManager">
@@ -485,12 +324,13 @@
       <workItem from="1504068676868" duration="15070000" />
       <workItem from="1504143120638" duration="8905000" />
       <workItem from="1504154262896" duration="6300000" />
-      <workItem from="1504195007462" duration="45000" />
+      <workItem from="1504195007462" duration="629000" />
+      <workItem from="1504254015489" duration="134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68388000" />
+    <option name="totallyTimeSpent" value="69106000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -505,7 +345,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31164902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2624811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -543,15 +383,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ProductManager/model/._product_db.php" />
-    <entry file="file://$PROJECT_DIR$/ProductManager/model/errors/error.php" />
-    <entry file="file://$PROJECT_DIR$/ProductManager/errors/error.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProductManager/asset/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -890,6 +721,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Product Catalog/product_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Product Catalog/product_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Product Catalog/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding />
         </state>
       </provider>
